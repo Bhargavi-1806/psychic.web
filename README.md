@@ -1,0 +1,2 @@
+# psychic.web
+web technologies
