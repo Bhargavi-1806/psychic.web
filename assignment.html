@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<title>Assignment</title>
+<head>
+<style>
+body {
+  background:pink;
+}
+.header {
+  text-align: center;
+  background:skyblue;
+}
+.topnav {
+  overflow: hidden;
+  background-color: turquoise;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color:purple;
+  padding: 16px 16px; 
+}
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color:lightgreen;
+}
+.card {
+  background-color: lightcoral;
+  padding: 20px;
+  margin-top: 20px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.footer {
+  text-align: right;
+  background: darkcyan;
+color:deeppink;
+  margin-top: 20px;
+}
+@media screen and (max-width: 500px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+ <h1>Invitation</h1>
+</div>
+<div class="topnav">
+  <a href="#">gifts</a>
+  <a href="#">blessings</a>
+  <a href="#" style="float:right">Your Presence</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Welcome Party</h2>
+      <h5>march 5, 2021</h5>
+      <p>I Hereby welcome you to my welcome party on the eve of celebrating my return from australia. </p>
+    </div>
+  </div>
+</div>
+ <div class="footer">
+  <p>my sincere welcome<br>Bhargavi</p>
+</div>
+</body>
+</html>
